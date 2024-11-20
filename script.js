@@ -66,7 +66,7 @@ function nextRound() {
         closedCard.querySelector(".back").textContent = "";
         closedCard.classList.remove("flipped");
 
-        message.textContent = "Make your guess!";
+        message.textContent = "Guess hidden number higher or lower than the shown number?";
         message.style.color = "white";
 
         enableButtons();
@@ -126,7 +126,7 @@ function restartGame() {
     updateScore();
     updateLives();
 
-    message.textContent = "Make your guess!";
+    message.textContent = "Guess hidden number higher or lower than the shown number?";
     message.style.color = "white";
 
     higherButton.disabled = false;
